@@ -13,7 +13,7 @@ const NavbarTop = ({ connect, connected, becomeMember, isMember }) => {
             <Nav.Link href="/create-vote">Create Vote</Nav.Link>
             {
 !isMember && (
-<Button variant="success" onClick={becomeMember}>Become Member</Button>
+<Button variant="success" onClick={becomeMember}>Become a Member</Button>
 )
 }
           </Nav>
